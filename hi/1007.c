@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("\"C:\\Downolad\\hello.c\"");
+    printf("\"C:\\Download\\hello.cpp\"\n");
     return 0;    
 }

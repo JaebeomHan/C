@@ -2,15 +2,9 @@
 
 int main()
 {
-    double a;
-    scanf("%lf", &a);
-    
-    separate(a);
-}
+    int a, b;
+    scanf("%d.%d", &a, &b);
+    printf("%d\n%d", a, b);
 
-void separate(double n)
-{
-    printf("%d\n%g", (int)n, n-(int)n);
+    return 0;
 }
-
-// 나중에할래..
